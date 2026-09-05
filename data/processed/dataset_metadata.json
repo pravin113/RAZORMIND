@@ -1,0 +1,10 @@
+{
+  "record_count": 50000,
+  "fraud_count": 454,
+  "fraud_rate": 0.00908,
+  "payment_failure_rate": 0.1204,
+  "recovery_rate_on_failures": 0.4787375415282392,
+  "seed": 42,
+  "raw_path": "D:\\RazorMind\\data\\raw\\synthetic_transactions.csv",
+  "processed_path": "D:\\RazorMind\\data\\processed\\transactions.csv"
+}

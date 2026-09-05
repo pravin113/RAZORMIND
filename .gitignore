@@ -1,0 +1,73 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+*.pem
+*.key
+*.pfx
+
+# Large AI Model weights (download separately - see models/README.md)
+*.gguf
+models/*.gguf
+*.bin
+*.weights
+*.pt
+*.pth
+*.onnx
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+backend/.venv/
+venv/
+env/
+.pytest_cache/
+**/.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Databases & SQLite files
+*.db
+*.sqlite
+*.sqlite3
+backend/test_razormind.db
+backend/live_test.db
+
+# Node & Frontend build outputs
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+dist-ssr/
+.vite/
+*.local
+*.tsbuildinfo
+
+# Android / Mobile / Binaries
+frontend/android/
+*.apk
+*.aab
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# OS files
+Thumbs.db
