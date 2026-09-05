@@ -17,6 +17,13 @@ models/*.gguf
 *.pth
 *.onnx
 
+# Local documentation, verification & helper scripts
+docs/
+PHASE_8_FINAL_VERIFICATION.md
+start.bat
+stop.bat
+structure.txt
+
 # Python & Virtual Environments
 __pycache__/
 *.py[cod]
