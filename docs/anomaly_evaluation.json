@@ -1,9 +1,0 @@
-{
-  "version": "anomaly-20260903170502",
-  "record_count": 50000,
-  "contamination": 0.01362,
-  "score_threshold": 4.803945242770396e-16,
-  "flag_rate": 0.01362,
-  "fraud_rate_among_flagged": 0.05286343612334802,
-  "note": "Isolation Forest detects unusual behavior independently from fraud classification."
-}
